@@ -1,17 +1,24 @@
 /* Selector {
     Property: value;
-}
-*/
+}*/
+
+/* Hex number example - #AA4139 */
+
+/* RGB  complimentary color example - (255, 176, 170) */ 
+
+/* RBGA color example  - (255, 176, 170, 0.5) */
+
+
 
 body {
   background-image: url(backgroundimage.jpg);
   background-size: cover;
 }
 
-h2 {
+h2 , p {
   color: #AA4139;
   text-align: center;
-  border: 5px solid rgb(255, 176, 170);
+  border: 5px solid rgba(255, 176, 170, 0.5);
   cursor: pointer;
   
 }
@@ -29,6 +36,10 @@ list-style: none;
 display: inline-block;
 }
 
-/* Hex number example - #AA4139 */
-/* RGB  complimentary color example - 255, 176, 170 */ 
+.webtext {
+border: 5px dashed green;
+}
 
+.active {
+  color: red;
+}
