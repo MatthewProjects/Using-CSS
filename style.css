@@ -38,8 +38,6 @@ display: inline-block;
 
 .webtext {
 border: 5px dashed green;
+
 }
 
-.active {
-  color: red;
-}
